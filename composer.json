@@ -1,0 +1,25 @@
+{
+    "name": "a2020gk/pesik-bot",
+    "description": "My small telegram-bot",
+    "type": "project",
+    "require": {
+        "danog/madelineproto": "^8"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Antony",
+            "email": "a2020gk@outlook.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "symfony/thanks": true
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\":"src/"
+        }
+    }
+}
